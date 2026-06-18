@@ -43,6 +43,10 @@
   filter: brightness(1.4);
 }
 
+.btn.num {
+  background: #000000;
+}
+
 .btn.fn {
   background: #636366;
   color: #000;

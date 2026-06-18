@@ -86,7 +86,7 @@ export default function Calculator() {
             {row.map((btn) => (
               <button
                 key={btn}
-                className={`btn ${isOp(btn) || btn === '=' ? 'op' : ''} ${btn === 'C' || btn === '±' || btn === '%' ? 'fn' : ''} ${btn === '0' ? 'zero' : ''}`}
+                className={`btn ${isOp(btn) || btn === '=' ? 'op' : ''} ${btn === 'C' || btn === '±' || btn === '%' ? 'fn' : ''} ${'0123456789.'.includes(btn) ? 'num' : ''} ${btn === '0' ? 'zero' : ''}`}
                 onClick={() => handleClick(btn)}
               >
                 {btn}
