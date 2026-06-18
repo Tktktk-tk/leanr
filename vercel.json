@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build --prefix calculator",
+  "outputDirectory": "calculator/dist",
+  "installCommand": "npm install --prefix calculator",
+  "framework": "vite"
+}
